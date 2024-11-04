@@ -43,18 +43,6 @@ scipy = ">=1.8"
 python-semantic-release = "^7.32.2"
 
 
-[[tool.poetry.source]]
-name = "jfrog-download"
-url = "https://vzartifactory.jfrog.io/artifactory/api/pypi/default-pypi/simple"
-default = false
-secondary = true
-
-[[tool.poetry.source]]
-name = "jfrog"
-url = "https://vzartifactory.jfrog.io/artifactory/api/pypi/default-pypi/"
-default = false
-secondary = true
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
